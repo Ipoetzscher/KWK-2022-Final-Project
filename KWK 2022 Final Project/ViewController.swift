@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueRoom")!)
-        print("Hello World!")
+//        print("Hello World!")
         // Do any additional setup after loading the view.
     }
 

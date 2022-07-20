@@ -14,6 +14,9 @@
 		59C01CF328873A2A00A301BC /* KWK_2022_Final_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59C01CF128873A2A00A301BC /* KWK_2022_Final_Project.xcdatamodeld */; };
 		59C01CF528873A2D00A301BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C01CF428873A2D00A301BC /* Assets.xcassets */; };
 		59C01CF828873A2D00A301BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C01CF628873A2D00A301BC /* LaunchScreen.storyboard */; };
+		59C01D002887575400A301BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C01CFF2887575400A301BC /* SecondViewController.swift */; };
+		59C01D02288758F100A301BC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C01D01288758F100A301BC /* ThirdViewController.swift */; };
+		59C01D04288760B900A301BC /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C01D03288760B900A301BC /* RoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		59C01CF428873A2D00A301BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59C01CF728873A2D00A301BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59C01CF928873A2D00A301BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C01CFF2887575400A301BC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		59C01D01288758F100A301BC /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		59C01D03288760B900A301BC /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				59C01CE828873A2A00A301BC /* AppDelegate.swift */,
 				59C01CEA28873A2A00A301BC /* SceneDelegate.swift */,
 				59C01CEC28873A2A00A301BC /* ViewController.swift */,
+				59C01D03288760B900A301BC /* RoundedCorner.swift */,
+				59C01CFF2887575400A301BC /* SecondViewController.swift */,
+				59C01D01288758F100A301BC /* ThirdViewController.swift */,
 				59C01CEE28873A2A00A301BC /* Main.storyboard */,
 				59C01CF428873A2D00A301BC /* Assets.xcassets */,
 				59C01CF628873A2D00A301BC /* LaunchScreen.storyboard */,
@@ -144,7 +153,10 @@
 				59C01CF328873A2A00A301BC /* KWK_2022_Final_Project.xcdatamodeld in Sources */,
 				59C01CED28873A2A00A301BC /* ViewController.swift in Sources */,
 				59C01CE928873A2A00A301BC /* AppDelegate.swift in Sources */,
+				59C01D002887575400A301BC /* SecondViewController.swift in Sources */,
+				59C01D02288758F100A301BC /* ThirdViewController.swift in Sources */,
 				59C01CEB28873A2A00A301BC /* SceneDelegate.swift in Sources */,
+				59C01D04288760B900A301BC /* RoundedCorner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
