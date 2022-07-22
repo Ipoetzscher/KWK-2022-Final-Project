@@ -1,22 +1,29 @@
 //
-//  SecondViewController.swift
+//  EigthViewController.swift
 //  KWK 2022 Final Project
 //
-//  Created by India Poetzscher on 7/19/22.
+//  Created by India Poetzscher on 7/21/22.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
-//    var score: Int = 0
+class EigthViewController: UIViewController {
+
+    
+    @IBOutlet weak var continueButton: UIButton!
+    @IBOutlet weak var snoopAroundButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueRoom")!)
+        continueButton.isHidden = true
 
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func leaveAlone(_ sender: Any) {
+        continueButton.isHidden = false
+        snoopAroundButton.isHidden = true
+    }
     
     /*
     // MARK: - Navigation

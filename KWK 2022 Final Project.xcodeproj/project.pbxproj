@@ -17,6 +17,11 @@
 		59C01D002887575400A301BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C01CFF2887575400A301BC /* SecondViewController.swift */; };
 		59C01D02288758F100A301BC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C01D01288758F100A301BC /* ThirdViewController.swift */; };
 		59C01D04288760B900A301BC /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C01D03288760B900A301BC /* RoundedCorner.swift */; };
+		59C6A33E2889F502008DCAF6 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A33D2889F502008DCAF6 /* SixthViewController.swift */; };
+		59C6A3402889FD63008DCAF6 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A33F2889FD63008DCAF6 /* SeventhViewController.swift */; };
+		59C6A342288A1580008DCAF6 /* FightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A341288A1580008DCAF6 /* FightViewController.swift */; };
+		59C6A344288A17EA008DCAF6 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A343288A17EA008DCAF6 /* MessageViewController.swift */; };
+		59C6A346288A372C008DCAF6 /* EigthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A345288A372C008DCAF6 /* EigthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		59C01CFF2887575400A301BC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		59C01D01288758F100A301BC /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		59C01D03288760B900A301BC /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		59C6A33D2889F502008DCAF6 /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		59C6A33F2889FD63008DCAF6 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
+		59C6A341288A1580008DCAF6 /* FightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightViewController.swift; sourceTree = "<group>"; };
+		59C6A343288A17EA008DCAF6 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		59C6A345288A372C008DCAF6 /* EigthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EigthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +79,12 @@
 				59C01CEC28873A2A00A301BC /* ViewController.swift */,
 				59C01D03288760B900A301BC /* RoundedCorner.swift */,
 				59C01CFF2887575400A301BC /* SecondViewController.swift */,
+				59C6A345288A372C008DCAF6 /* EigthViewController.swift */,
 				59C01D01288758F100A301BC /* ThirdViewController.swift */,
+				59C6A341288A1580008DCAF6 /* FightViewController.swift */,
+				59C6A33D2889F502008DCAF6 /* SixthViewController.swift */,
+				59C6A33F2889FD63008DCAF6 /* SeventhViewController.swift */,
+				59C6A343288A17EA008DCAF6 /* MessageViewController.swift */,
 				59C01CEE28873A2A00A301BC /* Main.storyboard */,
 				59C01CF428873A2D00A301BC /* Assets.xcassets */,
 				59C01CF628873A2D00A301BC /* LaunchScreen.storyboard */,
@@ -150,10 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59C6A346288A372C008DCAF6 /* EigthViewController.swift in Sources */,
 				59C01CF328873A2A00A301BC /* KWK_2022_Final_Project.xcdatamodeld in Sources */,
 				59C01CED28873A2A00A301BC /* ViewController.swift in Sources */,
+				59C6A3402889FD63008DCAF6 /* SeventhViewController.swift in Sources */,
 				59C01CE928873A2A00A301BC /* AppDelegate.swift in Sources */,
+				59C6A33E2889F502008DCAF6 /* SixthViewController.swift in Sources */,
+				59C6A342288A1580008DCAF6 /* FightViewController.swift in Sources */,
 				59C01D002887575400A301BC /* SecondViewController.swift in Sources */,
+				59C6A344288A17EA008DCAF6 /* MessageViewController.swift in Sources */,
 				59C01D02288758F100A301BC /* ThirdViewController.swift in Sources */,
 				59C01CEB28873A2A00A301BC /* SceneDelegate.swift in Sources */,
 				59C01D04288760B900A301BC /* RoundedCorner.swift in Sources */,
