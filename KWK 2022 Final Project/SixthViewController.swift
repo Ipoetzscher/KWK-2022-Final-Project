@@ -20,6 +20,7 @@ class SixthViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueRoom")!)
         label2.isHidden = true
         button1.isHidden = true
         button2.isHidden = true

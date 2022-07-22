@@ -11,6 +11,7 @@ class SeventhViewController: UIViewController {
     
     var hasMemory: Bool = false
     
+    @IBOutlet weak var leaveAloneButton: UIButton!
     @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var snoopAroundButton: UIButton!
     
@@ -18,12 +19,14 @@ class SeventhViewController: UIViewController {
         super.viewDidLoad()
         print(hasMemory)
         continueButton.isHidden = true
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "seesaw")!)
 
         // Do any additional setup after loading the view.
     }
     @IBAction func leaveAlone(_ sender: Any) {
         continueButton.isHidden = false
         snoopAroundButton.isHidden = true
+        leaveAloneButton.isHidden = true
         hasMemory = false
     }
     

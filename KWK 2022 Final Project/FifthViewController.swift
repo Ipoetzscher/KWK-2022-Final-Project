@@ -1,5 +1,5 @@
 //
-//  FightViewController.swift
+//  FifthViewController.swift
 //  KWK 2022 Final Project
 //
 //  Created by India Poetzscher on 7/21/22.
@@ -7,18 +7,13 @@
 
 import UIKit
 
-class FightViewController: UIViewController {
-    
-    var bossFightMemory = SeventhViewController().hasMemory
+class FifthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(bossFightMemory)
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "monsterdoor")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "slide")!)
+
         // Do any additional setup after loading the view.
-    }
-    @IBAction func fightButton(_ sender: Any) {
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "nomonster")!)
     }
     
 

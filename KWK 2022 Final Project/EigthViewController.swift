@@ -10,12 +10,14 @@ import UIKit
 class EigthViewController: UIViewController {
 
     
+    @IBOutlet weak var leaveAloneButton: UIButton!
     @IBOutlet weak var continueButton: UIButton!
     @IBOutlet weak var snoopAroundButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         continueButton.isHidden = true
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "monkeybars")!)
 
         // Do any additional setup after loading the view.
     }
@@ -23,6 +25,7 @@ class EigthViewController: UIViewController {
     @IBAction func leaveAlone(_ sender: Any) {
         continueButton.isHidden = false
         snoopAroundButton.isHidden = true
+        leaveAloneButton.isHidden = true
     }
     
     /*

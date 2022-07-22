@@ -13,6 +13,7 @@ class MessageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueRoom")!)
         print(hasMemory2 ?? false)
 //        print(SeventhViewController().hasMemory)
 

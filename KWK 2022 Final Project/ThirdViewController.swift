@@ -9,12 +9,12 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
-    @IBOutlet weak var view1: RoundedCorner!
+//    @IBOutlet weak var view1: RoundedCorner!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueRoom")!)
-        view1.layer.opacity = 0.35
+//        view1.layer.opacity = 0.35
         
         // Do any additional setup after loading the view.
     }

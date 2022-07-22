@@ -22,6 +22,13 @@
 		59C6A342288A1580008DCAF6 /* FightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A341288A1580008DCAF6 /* FightViewController.swift */; };
 		59C6A344288A17EA008DCAF6 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A343288A17EA008DCAF6 /* MessageViewController.swift */; };
 		59C6A346288A372C008DCAF6 /* EigthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A345288A372C008DCAF6 /* EigthViewController.swift */; };
+		59C6A348288A5FAE008DCAF6 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A347288A5FAE008DCAF6 /* FourthViewController.swift */; };
+		59C6A34A288A5FB7008DCAF6 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A349288A5FB7008DCAF6 /* FifthViewController.swift */; };
+		59C6A34C288A6378008DCAF6 /* NinthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A34B288A6378008DCAF6 /* NinthViewController.swift */; };
+		59C6A34E288A637F008DCAF6 /* TenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A34D288A637F008DCAF6 /* TenthViewController.swift */; };
+		59C6A350288A638B008DCAF6 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A34F288A638B008DCAF6 /* PhotoViewController.swift */; };
+		59C6A352288A6409008DCAF6 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A351288A6409008DCAF6 /* WinViewController.swift */; };
+		59C6A354288A6415008DCAF6 /* LoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C6A353288A6415008DCAF6 /* LoseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +49,13 @@
 		59C6A341288A1580008DCAF6 /* FightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightViewController.swift; sourceTree = "<group>"; };
 		59C6A343288A17EA008DCAF6 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		59C6A345288A372C008DCAF6 /* EigthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EigthViewController.swift; sourceTree = "<group>"; };
+		59C6A347288A5FAE008DCAF6 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		59C6A349288A5FB7008DCAF6 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		59C6A34B288A6378008DCAF6 /* NinthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthViewController.swift; sourceTree = "<group>"; };
+		59C6A34D288A637F008DCAF6 /* TenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthViewController.swift; sourceTree = "<group>"; };
+		59C6A34F288A638B008DCAF6 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		59C6A351288A6409008DCAF6 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		59C6A353288A6415008DCAF6 /* LoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +95,16 @@
 				59C01CFF2887575400A301BC /* SecondViewController.swift */,
 				59C6A345288A372C008DCAF6 /* EigthViewController.swift */,
 				59C01D01288758F100A301BC /* ThirdViewController.swift */,
+				59C6A347288A5FAE008DCAF6 /* FourthViewController.swift */,
 				59C6A341288A1580008DCAF6 /* FightViewController.swift */,
+				59C6A34B288A6378008DCAF6 /* NinthViewController.swift */,
+				59C6A351288A6409008DCAF6 /* WinViewController.swift */,
 				59C6A33D2889F502008DCAF6 /* SixthViewController.swift */,
+				59C6A34F288A638B008DCAF6 /* PhotoViewController.swift */,
 				59C6A33F2889FD63008DCAF6 /* SeventhViewController.swift */,
+				59C6A353288A6415008DCAF6 /* LoseViewController.swift */,
+				59C6A349288A5FB7008DCAF6 /* FifthViewController.swift */,
+				59C6A34D288A637F008DCAF6 /* TenthViewController.swift */,
 				59C6A343288A17EA008DCAF6 /* MessageViewController.swift */,
 				59C01CEE28873A2A00A301BC /* Main.storyboard */,
 				59C01CF428873A2D00A301BC /* Assets.xcassets */,
@@ -170,12 +191,19 @@
 				59C01CED28873A2A00A301BC /* ViewController.swift in Sources */,
 				59C6A3402889FD63008DCAF6 /* SeventhViewController.swift in Sources */,
 				59C01CE928873A2A00A301BC /* AppDelegate.swift in Sources */,
+				59C6A348288A5FAE008DCAF6 /* FourthViewController.swift in Sources */,
+				59C6A34E288A637F008DCAF6 /* TenthViewController.swift in Sources */,
+				59C6A34A288A5FB7008DCAF6 /* FifthViewController.swift in Sources */,
+				59C6A354288A6415008DCAF6 /* LoseViewController.swift in Sources */,
 				59C6A33E2889F502008DCAF6 /* SixthViewController.swift in Sources */,
 				59C6A342288A1580008DCAF6 /* FightViewController.swift in Sources */,
+				59C6A350288A638B008DCAF6 /* PhotoViewController.swift in Sources */,
 				59C01D002887575400A301BC /* SecondViewController.swift in Sources */,
 				59C6A344288A17EA008DCAF6 /* MessageViewController.swift in Sources */,
 				59C01D02288758F100A301BC /* ThirdViewController.swift in Sources */,
 				59C01CEB28873A2A00A301BC /* SceneDelegate.swift in Sources */,
+				59C6A352288A6409008DCAF6 /* WinViewController.swift in Sources */,
+				59C6A34C288A6378008DCAF6 /* NinthViewController.swift in Sources */,
 				59C01D04288760B900A301BC /* RoundedCorner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
